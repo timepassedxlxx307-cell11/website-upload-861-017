@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搜索影片-口碑日韩好剧</title>
+  <meta name="description" content="搜索日韩影视、最新影片、热播剧集与高清资源。">
+  <meta name="keywords" content="日韩影视,免费在线观看,最新影片,热播剧集,高清资源,内容丰富,影视类型,热门推荐,搜索">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script defer src="./assets/search-index.js"></script>
+  <script defer src="./assets/site.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav-wrap">
+    <a class="brand" href="./index.html" aria-label="口碑日韩好剧">
+      <svg class="logo-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Zm0 2a2 2 0 0 0-2 2v1h3V5H7Zm5 0v3h4V5h-4Zm7 4h-3v4h3V9Zm0 6h-3v4h1a2 2 0 0 0 2-2v-2ZM8 19v-4H5v2a2 2 0 0 0 2 2h1Zm2 0h4v-4h-4v4Zm4-6V9h-4v4h4ZM8 13V9H5v4h3Z" fill="currentColor"/></svg>
+      <span>口碑日韩好剧</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="打开导航" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div class="nav-panel">
+      <div class="main-nav">
+        <a href="./index.html" class="nav-link">首页</a>
+        <a href="./categories.html" class="nav-link">分类</a>
+        <a href="./rankings.html" class="nav-link">排行榜</a>
+        <a href="./category-rihan-hot.html" class="nav-link">日韩热映</a>
+        <a href="./category-korea-drama.html" class="nav-link">韩剧精选</a>
+        <a href="./category-japan-drama.html" class="nav-link">日影日剧</a>
+        <a href="./category-new-release.html" class="nav-link">年度新片</a>
+      </div>
+      <form class="search-form" action="./search.html" method="get">
+        <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+        <button type="submit" aria-label="搜索">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.8 18a7.2 7.2 0 1 1 5.1-2.1l4.1 4.1-1.4 1.4-4.1-4.1A7.1 7.1 0 0 1 10.8 18Zm0-2a5.2 5.2 0 1 0 0-10.4 5.2 5.2 0 0 0 0 10.4Z" fill="currentColor"/></svg>
+        </button>
+      </form>
+    </div>
+  </nav>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb"><a href="./index.html">首页</a><span>/</span><b>搜索</b></nav>
+      <h1>搜索影片</h1>
+      <p>输入影片名、地区、年份、类型或标签，快速找到想看的内容。</p>
+    </div>
+  </section>
+  <section class="content-section search-page">
+    <form class="search-page-form" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="输入关键词搜索..." autocomplete="off">
+      <button class="btn btn-primary" type="submit">搜索</button>
+    </form>
+    <div class="search-result-title" data-search-title></div>
+    <div class="movie-grid" data-search-results></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <section>
+      <h2>口碑日韩好剧</h2>
+      <p>提供日韩最新影片与热播剧集的免费在线观看服务。视频资源高清，内容丰富，涵盖多种影视类型与热门推荐。</p>
+    </section>
+    <section>
+      <h2>热门分类</h2>
+      <ul>
+          <li><a href="./category-rihan-hot.html">日韩热映</a></li>
+          <li><a href="./category-korea-drama.html">韩剧精选</a></li>
+          <li><a href="./category-japan-drama.html">日影日剧</a></li>
+          <li><a href="./category-new-release.html">年度新片</a></li>
+          <li><a href="./category-movie-choice.html">电影精选</a></li>
+          <li><a href="./category-series-binge.html">热播剧集</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>热播推荐</h2>
+      <ul>
+          <li><a href="./movie-1848.html">强殖装甲</a></li>
+          <li><a href="./movie-693.html">圣剑使的禁咒咏唱</a></li>
+          <li><a href="./movie-455.html">共生</a></li>
+          <li><a href="./movie-406.html">闪乱神乐第二季</a></li>
+          <li><a href="./movie-785.html">毒姬</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>快速入口</h2>
+      <ul>
+        <li><a href="./index.html#featured">精选推荐</a></li>
+        <li><a href="./index.html#latest">最新影片</a></li>
+        <li><a href="./rankings.html">排行榜</a></li>
+        <li><a href="./categories.html">全部分类</a></li>
+      </ul>
+    </section>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 口碑日韩好剧</span>
+    <span>高清内容 · 热门推荐 · 多端畅看</span>
+  </div>
+</footer>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
